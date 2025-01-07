@@ -1,0 +1,1547 @@
+
+
+
+audio,canvas,video {
+    display: inline-block;
+    *display: inline;
+    *zoom:1}
+
+audio:not([controls]) {
+    display: none
+}
+
+#canvas {
+   
+    margin: 0px auto;
+    padding: 100px
+}
+
+.collection-type-index.full-width-index #canvas {
+    max-width: 100%
+}
+
+.has-primary-nav #canvas {
+        padding-top: 60px
+    }
+
+
+
+body #canvas {
+    background-color: white
+}
+
+
+
+
+body {
+    background-color: #fcfcfc;
+    color: #575757;
+    background-image: none;
+    background-position: top left;
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: repeat
+}
+
+body #canvas {
+    background-color: black
+}
+
+body.site-title .logo a {
+    color: #222
+}
+
+body.site-title .logo a:hover {
+    color: #444
+}
+
+body #topNav a {
+    color: white
+}
+
+body #topNav .active-link>a {
+    color: green
+}
+
+body #topNav a:hover {
+    color: green
+}
+
+body h1 {
+    color: #222
+}
+
+body h1.entry-title a,body h1.entry-title a:visited {
+    color: #222
+}
+
+body h1.entry-title a:hover {
+    color: black
+}
+
+body h2 {
+    color: #222
+}
+
+body h3 {
+    color: #d1d1d1
+}
+
+body a,body a:visited {
+    color: black
+}
+
+body a:hover {
+    color: black
+}
+
+body a:focus {
+    outline: none
+}
+
+body .summary-title a,body .summary-title a:visited,body .summary-title a:hover {
+    color: #222
+}
+
+body .summary-info-item a,body .summary-info-item a:visited,body .summary-info-item a:hover {
+    color: #575757
+}
+
+body {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-family: Merriweather;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 12px;
+    text-transform: none;
+    text-decoration: none
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 1em 0 .5em
+}
+
+h1 {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+    font-size: 22px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5em;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em
+}
+
+h2 {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em
+}
+
+h3 {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em
+}
+
+p {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-family: Merriweather;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 12px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0 0 1em
+}
+
+blockquote {
+    margin: 1em 0;
+    padding: 0 0 0 1em;
+    border: 1px solid #575757;
+    border-width: 0 0 0 1px
+}
+
+ul,ol,dl {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-family: Merriweather;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 12px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 1em 0
+}
+
+nav ul,nav ol {
+    margin: 0
+}
+
+#topNav {
+    font-family: Georgia,serif;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px
+}
+
+#topNav nav,#topNav ul,#topNav li,#topNav a {
+    font-family: Georgia,serif;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px
+}
+
+#topNav ul,#topNav li {
+    text-decoration: none !important
+}
+
+.underline-body-links .html-block a,.underline-body-links .project-description a,.underline-body-links .entry-content a,.underline-body-links .product-excerpt a,.underline-body-links .markdown-block a {
+    border-bottom: 1px solid #111;
+    border-color: rgba(17,17,17,.2)
+}
+
+.underline-body-links .html-block a:hover,.underline-body-links .project-description a:hover,.underline-body-links .entry-content a:hover,.underline-body-links .product-excerpt a:hover,.underline-body-links .markdown-block a:hover {
+    border-color: white
+}
+
+#canvas {
+  
+    margin: 0px auto;
+    padding: 60px
+}
+
+.collection-type-index.full-width-index #canvas {
+    max-width: 100%
+}
+
+.collection-type-index.full-width-index #header,.collection-type-index.full-width-index #footer {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+#header {
+    margin-bottom: 100px
+}
+
+#page {
+    padding: 60px 0;
+    opacity: 1;
+    position: relative
+}
+
+.extra-wrapper.page-header .sqs-layout .sqs-row:first-child [class*="sqs-col"] .sqs-block:first-child,.extra-wrapper.page-header .sqs-layout.editing {
+    margin-top: 60px
+}
+
+.extra-wrapper.page-footer .sqs-layout .sqs-row:last-child [class*="sqs-col"] .sqs-block:last-child,.extra-wrapper.page-footer .sqs-layout.editing {
+    margin-bottom: 60px
+}
+
+.index-page-open .extra-wrapper {
+    display: none
+}
+
+.site-title .logo {
+    margin: 0;
+    font-family: Oswald,arial,sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    letter-spacing: 0px;
+    font-family: futura-pt;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    line-height: 1.2em
+}
+
+.site-title .logo a {
+    color: #222
+}
+
+.site-title #topNav nav li a {
+    padding: 12.2px 0
+}
+
+.site-title #topNav .subnav {
+    margin-top: -12.2px
+}
+
+.logo-image .logo {
+    line-height: 0;
+    margin: 0;
+    display: inline-block;
+    height: 62px
+}
+
+.logo-image .logo img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block
+}
+
+.logo-image #topNav nav li a {
+    padding: 18px 0
+}
+
+.logo-image #topNav .subnav {
+    margin-top: -18px
+}
+
+.logo-subtitle {
+    font-family: monospace, serif;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 2em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0em;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: white;
+    margin-top: .7em;
+    width: 100%
+}
+
+#topNav nav {
+    float: left
+}
+
+#topNav nav li {
+    float: left;
+    position: relative;
+    margin-right: 30px
+}
+
+#topNav nav li:last-child {
+    margin-right: 0px
+}
+
+#topNav nav li a {
+    display: inline-block;
+    line-height: 26px
+}
+
+#topNav nav li:last-child a {
+    margin-right: 0px
+}
+
+#topNav nav .folder-collection>a {
+    cursor: pointer
+}
+
+#topNav nav .folder-collection .subnav {
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    background: #fcfcfc;
+    height: 0;
+    overflow: hidden;
+    opacity: 1;
+    z-index: 1000
+}
+
+#topNav nav .folder-collection ul {
+    overflow: hidden;
+    padding: 7.5px 0;
+    display: block
+}
+
+#topNav nav .folder-collection ul li {
+    margin: 0;
+    display: block;
+    width: 100%
+}
+
+#topNav nav .folder-collection ul li a {
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+    white-space: nowrap;
+    display: block;
+    padding: 3.75px 15px
+}
+
+#topNav nav .folder-collection:hover .subnav,#topNav nav .folder-collection .subnav:hover {
+    height: auto !important
+}
+
+#logo,#topNav {
+    float: left
+}
+
+#mobileMenuLink {
+    display: none;
+    margin: 15px 0 0
+}
+
+#mobileNav {
+    height: 0;
+    overflow: hidden
+}
+
+.layout-style-center #logo,.layout-style-center #topNav {
+    width: 100%;
+    text-align: center
+}
+
+.layout-style-center.site-title h1.logo {
+    margin-right: -1px
+}
+
+.layout-style-center #topNav {
+    margin-top: 20px
+}
+
+.layout-style-center #topNav nav,.layout-style-center #topNav ul,.layout-style-center #topNav li {
+    display: inline-block;
+    float: none
+}
+
+.layout-style-center #topNav nav li a {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: normal
+}
+
+.layout-style-center #topNav nav .folder-collection .subnav {
+    margin-top: 0 !important;
+    left: 50%
+}
+
+.layout-style-left #topNav {
+    float: right
+}
+
+.layout-style-left .main-nav li {
+    float: left
+}
+
+.layout-style-right.site-title h1.logo {
+    margin-right: -1px
+}
+
+.layout-style-right #logo {
+    margin: 0;
+    text-align: right
+}
+
+.layout-style-right #logo {
+    float: right
+}
+
+.layout-style-right .main-nav li {
+    float: left
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+      background-color: #f9f9f9;
+    color: #222;
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.875rem;
+  }
+  
+  a {
+      cursor: pointer;
+      position: relative;
+      &::before {
+          content: "";
+          position: absolute;
+          bottom: -0.2rem;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          transform: scaleX(0);
+          transform-origin: right;
+          background-color: currentcolor;
+          transition: transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
+      &:hover {
+          &::before {
+              transform: scaleX(1);
+              transform-origin: left;
+          }
+      }
+  }
+  
+  nav {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      padding: 1rem 5vw;
+      font-weight: 600;
+      text-transform: uppercase;
+      a {
+          letter-spacing: 0.05rem;
+      }
+      .left {
+          justify-self: start;
+      }
+      .logo {
+          display: flex;
+          flex-direction: column;
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 3rem;
+          font-weight: 600;
+          line-height: 1.1;
+          text-transform: initial;
+          span {
+              font-size: 2rem;
+              font-weight: 300;
+          }
+      }
+      .right {
+          justify-self: end;
+          display: flex;
+          align-items: center;
+          gap: 3rem;
+          svg {
+              cursor: pointer;
+          }
+      }
+  }
+  
+  main {
+     
+      padding: 60px 60px 60px 60px;
+      column-count: 3;
+      gap: 1rem;
+      @media (max-width: 1024px) {
+          column-count: 3;
+          gap: 2.5vw;
+      }
+      @media (max-width: 419px) {
+          column-count: 2;
+      }
+      &::after {
+          content: "";
+          display: block;
+          clear: both;
+      }
+
+      figure-1 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+ 
+        &:after {
+            content: "MONSTERMASH";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./untitled.gif);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#222, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+
+        &:hover {
+            &:before {
+                background: rgba(#000, 0.3);
+            }
+            &:after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-2 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "SLUMBER | TWITCH";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./dragon.gif);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-3 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "NIGHT STREET";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./animationbackground.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+    
+
+      figure-5 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "SATOSHI | COLLAGE";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./Satoshi\ Tajiricollage.jpg);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-6 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "HEADSHOT 1";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./pfp2.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-7 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "I SEE GHOSTS";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./Iseeghosts.jpg);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-8 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "GREED";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./animationbackground4.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-9 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "HEADSHOT 2";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./pfp1.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-10 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "TRAP CARD";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./mimikyu.png);
+            background: rgba(0, 0, 0, 0.5) none;
+
+            bottom: 0;
+            width: 100%;
+            
+
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+
+      figure-12 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "KALAROS | COMIC";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./comic.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-13 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "VENT | COMIC";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./vent.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-14 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "TRICK";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./Screenshot\ 2024-01-16\ 143944.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+
+      figure-17 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "GHOST LINE";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./gastlyline.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+              }
+          }
+      }
+  }
+
+  footer {
+        text-align: center;
+    }
+    
+    .footer-container {
+        background-color: black;
+        display: flex;
+    }
+    
+    .footer-container a {
+    color: black;
+    padding: 42px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;}
+    
+    .footer-left {
+    margin-right: auto}
+    
+    .fa:hover {
+        color: green;
+    }
+    
+    .footer-icons {
+        justify-content: space-between;
+        padding: 16px 64px 0px 0px
+    }
+    
+    .footer-icons ul {
+        list-style-type: none;
+    }
+    
+    .footer-icons li {
+        display: inline-block;
+        color: white;
+    }
+    
+    .footer-right {
+    margin-left: auto}
+    
+    .copyright {
+        background-color: black;
+        overflow: hidden;
+    }
+
+
+
+  
+  
