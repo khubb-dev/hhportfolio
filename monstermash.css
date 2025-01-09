@@ -227,13 +227,15 @@ nav ul,nav ol {
     line-height: 0;
     margin: 0;
     display: inline-block;
-    height: 62px
+    height: 95px;
+    width: auto;
 }
 
 .logo-image .logo img {
     max-height: 100%;
     max-width: 100%;
     display: block
+
 }
 
 .logo-image #topNav nav li a {
@@ -558,21 +560,21 @@ body {
           }
       }
   }
-  
+}
 
 
 
 
-  footer {
+footer {
         text-align: center;
-    }
+}
     
-    .footer-container {
+.footer-container {
         background-color: black;
         display: flex;
-    }
+}
     
-    .footer-container a {
+.footer-container a {
     color: black;
     padding: 42px 16px;
     text-decoration: none;
@@ -580,36 +582,34 @@ body {
     font-weight: bold;
     font-size: medium;}
     
-    .footer-left {
-    margin-right: auto}
+.footer-left {
+    margin-right: auto
+}
+
     
-    .fa:hover {
-        color: green;
-    }
-    
-    .footer-icons {
+.footer-icons {
         justify-content: space-between;
         padding: 16px 64px 0px 0px
-    }
+}
     
-    .footer-icons ul {
+.footer-icons ul {
         list-style-type: none;
-    }
+}
     
-    .footer-icons li {
+.footer-icons li {
         display: inline-block;
         color: white;
-    }
+}
     
-    .footer-right {
-    margin-left: auto}
+.footer-right {
+    margin-left: auto
+}
     
-    .copyright {
+.copyright {
         background-color: black;
         overflow: hidden;
-    }
+}
 
 
 
   
-}
