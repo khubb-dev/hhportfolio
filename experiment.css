@@ -283,13 +283,7 @@ nav ul,nav ol {
     position: relative
 }
 
-.extra-wrapper.page-header .sqs-layout .sqs-row:first-child [class*="sqs-col"] .sqs-block:first-child,.extra-wrapper.page-header .sqs-layout.editing {
-    margin-top: 60px
-}
 
-.extra-wrapper.page-footer .sqs-layout .sqs-row:last-child [class*="sqs-col"] .sqs-block:last-child,.extra-wrapper.page-footer .sqs-layout.editing {
-    margin-bottom: 60px
-}
 
 .index-page-open .extra-wrapper {
     display: none

@@ -39,30 +39,13 @@
             <header id="header">
                 <div id="logo" data-content-field="site-title">
                     <h1 class="logo">
-                        <a href="/">
-                            <img src="./02-image/Frogandfirespirit.png" alt="Hayden Hubbard"/>
+                        <a href="./index.html">
+                            <img src="./namelogo.png" alt="Hayden Hubbard"/>
                         </a>
                     </h1>
                     <div class="logo-subtitle">Animator | Illustrator | Director</div>
                 </div>
-                <script type="module">
-                    Y.use('squarespace-ui-base', function(Y) {
-                        Y.all("#header .logo, #header .logo-subtitle").each(function(text) {
-                            text.plug(Y.Squarespace.TextShrink, {
-                                parentEl: Y.one('#header'),
-                                triggerWidth: 750
-                            });
-                        });
-                    });
- 
- 
- 
- 
-                    // Show spinner on page load if loading bookmarked url
-                    if (window.location.hash && window.location.hash !== '#') {
-                        document.querySelector('body').className += ' index-loading';
-                    }
-                </script>
+
                 <div id="topNav" data-content-field="navigation">
                     <nav class="main-nav">
                         <ul>
@@ -103,18 +86,25 @@
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFpcYDVMpTjixSsF2VFE7KGucG2vebahSXvNRLhW6oJE1NBA/viewform?embedded=true" width="540 auto" height="351" frameborder="0" marginheight="0 auto" marginwidth="0 auto">Loading…</iframe>
 </article>
 
+
+<div class="home-button">
+    <i class="arrow left"></i>
+    <a href="./index.html">Back Home</a>
+    
+</home-button>
+
 <hr>
 
 <footer>
     <div class="footer-container">
-      <a class="link footer-left" href=""></a>
-      <div class="footer-icons">
-        <ul>
-          <li><a href="" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-          <li><a href="" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
-          <li><a href="" target="_blank"><i class="fa fa-youtube fa-2x"></i></a></li>
-      </ul>
-      </div>
+        <a class="link footer-left" href=""></a>
+        <div class="footer-icons">
+                <ul>
+                        <li><a href="https://www.linkedin.com/in/hayden-hubbard-367790194/" target="_blank"><img src="./linkeden final.png" alt="Hayden Hubbard LinkedIn"></a></li>
+                        <li><a href="https://vimeo.com/haydenhubbard" target="_blank"><img src="./vimeo final.png" alt="Hayden Hubbard Vimeo"></a></li>
+                        <li><a href="https://www.instagram.com/haydenhubbard_art?igsh=cHIyOXRreGRxa3Zq" target="_blank"><img src="./instagramfinal.png" alt="Hayden Hubbard Instagram"></a></li>
+                </ul>
+        </div>
       <a class="link footer-right" href="contact.html">contact</a>
     </div>
 
