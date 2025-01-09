@@ -16,6 +16,8 @@ audio:not([controls]) {
     padding: 100px
 }
 
+
+
 .collection-type-index.full-width-index #canvas {
     max-width: 100%
 }
@@ -87,9 +89,7 @@ body h3 {
     color: #d1d1d1
 }
 
-body a,body a:visited {
-    color: black
-}
+
 
 body a:hover {
     color: black
@@ -508,7 +508,51 @@ nav ul,nav ol {
 
 
 
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 9px;
+}
 
+
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.home-button a {
+    margin: 0 auto;
+    display: inline-block;
+    width: auto;
+    cursor: pointer; 
+    color:white; 
+    font-family: monospace; 
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none;; 
+}
+
+a:focus { 
+    text-decoration: none;; 
+}
+
+a:hover, a:active { 
+    text-decoration: none;
+}
+
+.home-button a:hover {
+    color: green
+}
 
 
 
@@ -533,7 +577,7 @@ body {
       font-size: 0.875rem;
   }
   
-  a {
+  a.nav-click {
       cursor: pointer;
       position: relative;
       &::before {
@@ -629,8 +673,14 @@ body {
             user-select: none;
             vertical-align: middle;
         }
- 
-        &:after {
+
+        a.figure-page {
+            display: block;
+            break-inside: avoid;
+            cursor: pointer;
+            position: relative;
+
+            &:after {
             content: "MONSTERMASH";
             position: absolute;
             top: 50%;
@@ -662,26 +712,502 @@ body {
             transition: 0.3s;
         }
 
-        &:hover {
+        }
+ 
+        
+
+        &:hover a.figure-page {
             &:before {
-                background: rgba(#000, 0.3);
+                background: transparent;
             }
             &:after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+                
+            }
+        }
+      }
+
+      figure-2 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        cursor: pointer;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+
+        a.figure-page {
+            display: block;
+            break-inside: avoid;
+            cursor: pointer;
+            position: relative;
+
+            &:after {
+            content: "SLUMBER | TWITCH";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./untitled.gif);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#222, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+
+        }
+ 
+        
+
+        &:hover a.figure-page {
+            &:before {
+                background: transparent;
+            }
+            &:after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+                
+            }
+        }
+      }
+
+      figure-3 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "NIGHT STREET";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./animationbackground.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+    
+
+      figure-5 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "SATOSHI | COLLAGE";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./Satoshi\ Tajiricollage.jpg);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
                 transform: translate(-50%, -50%) scale(1);
                 opacity: 1;
             }
         }
       }
 
-    
+      figure-6 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
 
-     
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "HEADSHOT 1";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./pfp2.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-7 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "I SEE GHOSTS";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./Iseeghosts.jpg);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-8 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "GREED";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./animationbackground4.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-9 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "HEADSHOT 2";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./pfp1.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
 
       figure-10 {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -744,6 +1270,274 @@ body {
       }
 
 
+      figure-12 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "KALAROS | COMIC";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./comic.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-13 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "VENT | COMIC";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./vent.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+      figure-14 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "TRICK";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./Screenshot\ 2024-01-16\ 143944.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
+
+
+      figure-17 {
+        margin: 0;
+        display: block;
+        break-inside: avoid;
+        position: relative;
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @media (max-width: 1024px) {
+                margin-top: 2.5vw;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            user-select: none;
+            vertical-align: middle;
+        }
+        
+        img:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=40);
+        }
+
+ 
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        &::after {
+            content: "GHOST LINE";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            background: transparent url(./gastlyline.png);
+            background: rgba(0, 0, 0, 0.5) none;
+            width: 101%;
+            height: 101%;
+            
+            transform: translate(-50%, -50%) scale(0);
+
+            opacity: 1;
+        }
+        &:hover {
+            &::before {
+                background: rgba(#000, 0.3);
+            }
+            &::after {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+      }
 
               }
           }

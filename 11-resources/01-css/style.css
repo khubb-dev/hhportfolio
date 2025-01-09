@@ -16,6 +16,8 @@ audio:not([controls]) {
     padding: 100px
 }
 
+
+
 .collection-type-index.full-width-index #canvas {
     max-width: 100%
 }
@@ -533,7 +535,7 @@ body {
       font-size: 0.875rem;
   }
   
-  a {
+  a.nav-click {
       cursor: pointer;
       position: relative;
       &::before {
@@ -629,8 +631,14 @@ body {
             user-select: none;
             vertical-align: middle;
         }
- 
-        &:after {
+
+        a.figure-page {
+            display: block;
+            break-inside: avoid;
+            cursor: pointer;
+            position: relative;
+
+            &:after {
             content: "MONSTERMASH";
             position: absolute;
             top: 50%;
@@ -662,13 +670,18 @@ body {
             transition: 0.3s;
         }
 
-        &:hover {
+        }
+ 
+        
+
+        &:hover a.figure-page {
             &:before {
-                background: rgba(#000, 0.3);
+                background: transparent;
             }
             &:after {
                 transform: translate(-50%, -50%) scale(1);
                 opacity: 1;
+                
             }
         }
       }
@@ -691,26 +704,14 @@ body {
             user-select: none;
             vertical-align: middle;
         }
-        
-        img:hover {
-          opacity: 0.5;
-          filter: alpha(opacity=40);
-        }
 
- 
+        a.figure-page {
+            display: block;
+            break-inside: avoid;
+            cursor: pointer;
+            position: relative;
 
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(#000, 0);
-            pointer-events: none;
-            transition: 0.3s;
-        }
-        &::after {
+            &:after {
             content: "SLUMBER | TWITCH";
             position: absolute;
             top: 50%;
@@ -721,7 +722,7 @@ body {
             color: white;
             font-size: 30px;
             font-family: monospace;
-            background: transparent url(./dragon.gif);
+            background: transparent url(./untitled.gif);
             background: rgba(0, 0, 0, 0.5) none;
             width: 101%;
             height: 101%;
@@ -730,13 +731,30 @@ body {
 
             opacity: 1;
         }
-        &:hover {
-            &::before {
-                background: rgba(#000, 0.3);
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(#222, 0);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+
+        }
+ 
+        
+
+        &:hover a.figure-page {
+            &:before {
+                background: transparent;
             }
-            &::after {
+            &:after {
                 transform: translate(-50%, -50%) scale(1);
                 opacity: 1;
+                
             }
         }
       }
@@ -745,7 +763,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -814,7 +831,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -882,7 +898,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -950,7 +965,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1018,7 +1032,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1086,7 +1099,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1154,7 +1166,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1221,7 +1232,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1289,7 +1299,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1357,7 +1366,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1426,7 +1434,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;

@@ -87,9 +87,7 @@ body h3 {
     color: #d1d1d1
 }
 
-body a,body a:visited {
-    color: black
-}
+
 
 body a:hover {
     color: black
@@ -503,10 +501,49 @@ nav ul,nav ol {
 
 
 
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 9px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.home-button a {
+    margin: 0 auto;
+    display: inline-block;
+    width: auto;
+    cursor: pointer; 
+    color:white; 
+    font-family: monospace; 
+    font-size: 40px;
+    text-decoration: none;
+}
 
 
+a:visited { 
+    text-decoration: none; 
+}
 
+a:hover { 
+    text-decoration: none;; 
+}
 
+a:focus { 
+    text-decoration: none;; 
+}
+
+a:hover, a:active { 
+    text-decoration: none;
+}
+
+.home-button a:hover {
+    color: green
+}
 
 
 
@@ -618,7 +655,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -689,7 +725,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -758,7 +793,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -826,7 +860,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -898,7 +931,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -965,7 +997,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1033,7 +1064,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1101,7 +1131,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
@@ -1170,7 +1199,6 @@ body {
         margin: 0;
         display: block;
         break-inside: avoid;
-        cursor: pointer;
         position: relative;
         &:not(:first-child) {
             margin-top: 1rem;
